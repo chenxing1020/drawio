@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T10:52:41.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="Y1YC-vqlQVPQtJ2NNb0X" version="24.2.3" type="device" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-05-27T11:50:42.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="YnGIu0lnDY_ZHrs5Rnnm" version="24.4.9" type="github" pages="11">
   <diagram id="krdPh_ePFrvkH1VeMcBR" name="服务架构图">
-    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1514" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
