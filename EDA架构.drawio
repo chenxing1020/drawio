@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T08:07:54.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="ZKMo7obGhTdsKRQlbvQi" version="24.5.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-19T08:12:35.077Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="-AxDBNIjWFKecOkak_wF" version="24.5.5" type="github" pages="3">
   <diagram name="Tsp" id="3S-PlJNpBKQQZbo95HMc">
     <mxGraphModel dx="820" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,10 +143,10 @@
         <mxCell id="pk3sQKRD27vnHAkI_WAg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="Ogjn2_ep2m_fb7ABBxqy-37" target="pk3sQKRD27vnHAkI_WAg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ogjn2_ep2m_fb7ABBxqy-37" value="固收交易员" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Ogjn2_ep2m_fb7ABBxqy-37" value="Web端&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;（固收交易员）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="190" y="490" width="89" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="Ogjn2_ep2m_fb7ABBxqy-38" value="投资经理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Ogjn2_ep2m_fb7ABBxqy-38" value="Web端&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;（投资经理）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="190" y="640.5" width="89" height="39" as="geometry" />
         </mxCell>
         <mxCell id="pk3sQKRD27vnHAkI_WAg-1" value="固收交易服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;aspect=fixed;" vertex="1" parent="1">
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SO4lshCP8uLdw9SEg3uS" name="交易指令流程">
-    <mxGraphModel dx="562" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,11 +210,11 @@
             <mxPoint x="-46" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="137v-jXRKxZr_regfpzG-4" value="固收交易员" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="137v-jXRKxZr_regfpzG-4" value="&lt;div&gt;Web端&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;（固收交易员）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="335.5" y="480.5" width="89" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="137v-jXRKxZr_regfpzG-5" value="投资经理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="335.5" y="640.5" width="89" height="39" as="geometry" />
+        <mxCell id="137v-jXRKxZr_regfpzG-5" value="&lt;div&gt;Web端&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;（投资经理）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="335.5" y="643.5" width="89" height="39" as="geometry" />
         </mxCell>
         <mxCell id="137v-jXRKxZr_regfpzG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="137v-jXRKxZr_regfpzG-9" target="137v-jXRKxZr_regfpzG-5">
           <mxGeometry relative="1" as="geometry" />
