@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T07:53:04.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="yi0RFVhGOa38bjBUpAxt" version="24.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-19T08:06:19.782Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="NacG3gnNmGdd8CuzdImc" version="24.5.5" type="github" pages="3">
   <diagram name="Tsp" id="3S-PlJNpBKQQZbo95HMc">
     <mxGraphModel dx="820" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="nqeT6UMnS6xZFaEgFdlA" name="指令平台">
+  <diagram id="nqeT6UMnS6xZFaEgFdlA" name="询价单流程">
     <mxGraphModel dx="984" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -187,6 +187,80 @@
         </mxCell>
         <mxCell id="pk3sQKRD27vnHAkI_WAg-15" value="5 询价单状态推送&lt;div&gt;WS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SO4lshCP8uLdw9SEg3uS" name="交易指令流程">
+    <mxGraphModel dx="562" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="137v-jXRKxZr_regfpzG-1" value="无 状态服务" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;textDirection=vertical-lr;" vertex="1" parent="1">
+          <mxGeometry x="690" y="483" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-2" value="有 状态服务" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;textDirection=vertical-lr;" vertex="1" parent="1">
+          <mxGeometry x="690" y="505.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="137v-jXRKxZr_regfpzG-4" target="137v-jXRKxZr_regfpzG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-27" value="1 发起交易请求&lt;div&gt;HTTP&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="137v-jXRKxZr_regfpzG-20">
+          <mxGeometry x="-0.3521" y="2" relative="1" as="geometry">
+            <mxPoint x="-46" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-4" value="固收交易员" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="335.5" y="480.5" width="89" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-5" value="投资经理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="335.5" y="640.5" width="89" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="137v-jXRKxZr_regfpzG-9" target="137v-jXRKxZr_regfpzG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-30" value="6 交易状态投递&lt;div&gt;WS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="137v-jXRKxZr_regfpzG-21">
+          <mxGeometry x="-0.0588" relative="1" as="geometry">
+            <mxPoint x="-50" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="137v-jXRKxZr_regfpzG-9" target="137v-jXRKxZr_regfpzG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-26" value="2 下发交易请求&lt;div&gt;AMI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="137v-jXRKxZr_regfpzG-22">
+          <mxGeometry x="-0.1184" y="2" relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-9" value="指令平台&lt;div&gt;AIM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-23" value="3 生成交易指令&lt;div&gt;AMI&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="137v-jXRKxZr_regfpzG-10" target="137v-jXRKxZr_regfpzG-19">
+          <mxGeometry x="-0.0435" y="30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="137v-jXRKxZr_regfpzG-10" target="137v-jXRKxZr_regfpzG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-29" value="5 返回交易状态&lt;div&gt;AMI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="137v-jXRKxZr_regfpzG-24">
+          <mxGeometry x="-0.0558" y="1" relative="1" as="geometry">
+            <mxPoint y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-10" value="指令平台&lt;div&gt;OME&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="137v-jXRKxZr_regfpzG-19" target="137v-jXRKxZr_regfpzG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-28" value="4 返回交易结果&lt;div&gt;AMI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="137v-jXRKxZr_regfpzG-25">
+          <mxGeometry x="-0.0261" y="-2" relative="1" as="geometry">
+            <mxPoint y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="137v-jXRKxZr_regfpzG-19" value="指令平台&lt;div&gt;EMS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="555" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
